@@ -25,4 +25,4 @@ Below shows a block diagram of the application’s signal path.
 
 ![alt text](https://github.com/polimi-cmls-23/group10-hw-SC-musical-guacamole/blob/main/signalchain.png?raw=true)
 
-§§
+The signal path for the application is the same for both Learn and Teach mode. It is only the GUI that changes. 
