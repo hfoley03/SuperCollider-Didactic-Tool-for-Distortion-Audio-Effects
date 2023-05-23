@@ -474,7 +474,7 @@ z = SynthDef(
       1.wait;
    }
 }.fork();
-			ScopeOut2.ar(Limiter.ar(outputSig), ~scopeView_in.bufnum);
+			ScopeOut2.ar(Limiter.ar(outputSig), ~scopeView_out.bufnum);
 			Out.ar(b.index, Limiter.ar(outputSig));
 			Out.ar([0,1], Limiter.ar(outputSig));
 
@@ -487,7 +487,7 @@ syn2 = SynthDef("clean",
 		sourceSig1 = ~audioSource.value(~audioSel,freq); // piano sinus change, change online?
 		sourceSig1 = sourceSig1 * inpGain; // input gain
 
-		ScopeOut2.ar(sourceSig1, ~scopeView_out.bufnum);
+		ScopeOut2.ar(sourceSig1, ~scopeView_in.bufnum);
 }).play;
 };
 
