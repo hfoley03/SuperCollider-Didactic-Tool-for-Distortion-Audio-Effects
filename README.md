@@ -21,7 +21,7 @@ Teach Mode is designed to be used by a professor/teacher who already has a suffi
 
 ## Block Diagram 
 
-Below shows a block diagram of the application’s signal path. The signal path for the application is the same for both Learn and Teach mode. It is only the GUI that changes. 
+Below shows a block diagram of the application’s signal path. The signal path for the application is the same for both Learn and Teach mode. It is only the GUI that changes.
 
 ![alt text](https://github.com/polimi-cmls-23/group10-hw-SC-musical-guacamole/blob/main/signalchain.png?raw=true)
 
