@@ -1,6 +1,3 @@
-# group10-hw-SC-musical-guacamole
-
-
 # SuperCollider Didadctic Tool for Distortion Effects
 
 The project brief is to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of Distortion. We decided to design an application in SuperCollider that could be used by both Student and Teacher. 
